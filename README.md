@@ -20,6 +20,6 @@ This repository includes implementations of the following machine learning model
 1.  **Logistic Regression Model**
 2.  **Decision Tree Classifier Model**
 3.  **Random Forest Classifier Model**
-4.  **AdaBoost CLassifier Model**
+4.  **AdaBoost Classifier Model**
 
 Each model is trained, tested, and evaluated to determine its performance on the rain prediction task.
