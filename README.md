@@ -1,17 +1,17 @@
-# Sleep Disorder Prediction - Machine Learning Assignment
+# Predicting Rainfall for the Next Day Based on Weather Observations in Australia - Machine Learning Assignment
 
-This repository contains the implementation of machine learning models to predict sleep disorders (Insomnia, Sleep Apnea, and No Disorder) based on individuals' health and lifestyle factors. This project utilizes the Sleep Health and Lifestyle Dataset.
+This repository contains the implementation of machine learning models to predict whether it will rain tomorrow based on daily weather observations collected from various locations across Australia.
 
 ## Dataset
 
 * **Dataset Name:** Sleep Health and Lifestyle Dataset
-* **Source:** Kaggle - Sleep Health and Lifestyle
-* **Link:** [https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data)
-* **Description:** This dataset provides information about people's sleep patterns, health conditions, and lifestyle choices, which is used to predict various sleep disorders.
+* **Link:** [https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package)
+* **Description:** This dataset comprises approximately 10 years of daily weather observations from numerous Australian weather stations. It includes features such as temperature, rainfall, humidity, wind conditions, and cloud cover.
+The target variable, RainTomorrow, indicates whether it will rain the next day (Yes or No), making it a binary classification problem.
 
 ## Project Objective
 
-The goal of this project is to build and evaluate machine learning models capable of predicting sleep disorders (Insomnia, Sleep Apnea, and No Disorder) using the features provided in the dataset.
+The goal of this project is to build and evaluate machine learning models capable of predicting next-day rainfall based on the weather features provided in the dataset.
 
 ## Models Implemented
 
@@ -22,4 +22,4 @@ This repository includes implementations of the following machine learning model
 3.  **Random Forest Classifier Model**
 4.  **Support Vector Machine (SVM)**
 
-Each of these models is trained, tested, and evaluated to determine its performance on the sleep disorder prediction task.
+Each model is trained, tested, and evaluated to determine its performance on the rain prediction task.
