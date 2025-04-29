@@ -18,8 +18,9 @@ The goal of this project is to build and evaluate machine learning models capabl
 This repository includes implementations of the following machine learning models:
 
 1.  **Logistic Regression Model**
-2.  **Decision Tree Classifier Model**
-3.  **Random Forest Classifier Model**
-4.  **AdaBoost Classifier Model**
+2.  **Random Forest Classifier Model**
+3.  **Gradient Boosting Classifier Model**
+4.  **Decision Tree Classifier**
+5.  **AdaBoost Classifier Model**
 
 Each model is trained, tested, and evaluated to determine its performance on the rain prediction task.
